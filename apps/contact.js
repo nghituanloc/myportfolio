@@ -60,7 +60,7 @@ class AppContact {
     fbBtn.appendChild(createElement('img', 'w-5 h-5', { src: 'https://cdn.simpleicons.org/facebook/FFFFFF', alt: 'Facebook' }));
     const ytBtn = createElement('a', 'inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20', { href: 'https://www.youtube.com/', target: '_blank', title: 'YouTube' });
     ytBtn.appendChild(createElement('img', 'w-5 h-5', { src: 'https://cdn.simpleicons.org/youtube/FFFFFF', alt: 'YouTube' }));
-    const zlBtn = createElement('a', 'inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20', { href: 'https://zalo.me/@tuan_loc', target: '_blank', title: 'Zalo' });
+    const zlBtn = createElement('a', 'inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20', { href: 'https://zalo.me/tuan_loc', target: '_blank', title: 'Zalo' });
     zlBtn.appendChild(createElement('img', 'w-5 h-5', { src: 'https://cdn.simpleicons.org/zalo/FFFFFF', alt: 'Zalo' }));
     socials.appendChild(ghBtn);
     socials.appendChild(fbBtn);
